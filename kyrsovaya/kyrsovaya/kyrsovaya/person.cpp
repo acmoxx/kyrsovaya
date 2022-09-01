@@ -24,7 +24,16 @@ void Person::print()
     }
     else
     {
-        std::cout << "not a man" << std::endl;
+        std::cout << "cannot fight" << std::endl;
+    }
+
+    if (adulthood() == true)
+    {
+        std::cout<<"adult"<<std::endl;
+    }
+    else 
+    {
+        std::cout << "underage" << std::endl;
     }
 }
 
