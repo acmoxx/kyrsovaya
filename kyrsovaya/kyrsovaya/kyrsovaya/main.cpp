@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+#include "electrician.h"
 #include "teacher.h"
 
 int main()
